@@ -6,6 +6,11 @@ import InputExample from "./InputExample"
 import ToggleText from "./ToggleText"
 import ProductCard from "./ProductCard"
 import FormExample from "./FormExample"
+import MyForm from "./forms"
+import StudentList from "./StudentList"
+import BackgroundColor from "./backgroundcolor"
+import LikeButton from "./LikeButton"
+
 
 
 
@@ -37,6 +42,12 @@ function Main() {
       />
 
       <FormExample />
+      <MyForm />
+
+      <StudentList />
+      <BackgroundColor />
+      <LikeButton />
+      
 
 
     </main>
