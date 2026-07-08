@@ -10,6 +10,9 @@ import MyForm from "./forms"
 import StudentList from "./StudentList"
 import BackgroundColor from "./backgroundcolor"
 import LikeButton from "./LikeButton"
+import FirstUseEffect from "./useEffect"
+import DocumentTitle from "./DocumentTitle"
+import GreetingSecond from "./GreetingSecond"
 
 
 
@@ -47,6 +50,14 @@ function Main() {
       <StudentList />
       <BackgroundColor />
       <LikeButton />
+
+      <FirstUseEffect />
+
+      <DocumentTitle />
+
+      <GreetingSecond />
+
+
       
 
 
