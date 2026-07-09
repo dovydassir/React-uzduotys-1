@@ -13,6 +13,10 @@ import LikeButton from "./LikeButton"
 import FirstUseEffect from "./useEffect"
 import DocumentTitle from "./DocumentTitle"
 import GreetingSecond from "./GreetingSecond"
+import SimboliuSkaiciavimas from "./SimboliuSkaiciavimas"
+import AmziausTikrinimas from "./AmziausTikrinimas"
+import FonoSpalva from "./FonoSplava"
+
 
 
 
@@ -56,6 +60,14 @@ function Main() {
       <DocumentTitle />
 
       <GreetingSecond />
+
+      <SimboliuSkaiciavimas />
+
+      <AmziausTikrinimas />
+
+      <FonoSpalva />
+      
+      
 
 
       
