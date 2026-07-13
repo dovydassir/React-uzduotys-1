@@ -16,6 +16,16 @@ import GreetingSecond from "./GreetingSecond"
 import SimboliuSkaiciavimas from "./SimboliuSkaiciavimas"
 import AmziausTikrinimas from "./AmziausTikrinimas"
 import FonoSpalva from "./FonoSplava"
+import AutoFocus from "./AutoFocus";
+import FocusButton from "./FocusButton";
+import InputValue from "./InputValue";
+import ClearInput from "./ClearInput";
+import SelectText from "./SelectText"
+import ColorBox from "./ColorBox";
+import ClickCounter from "./ClickCounter";
+
+
+
 
 
 
@@ -66,6 +76,20 @@ function Main() {
       <AmziausTikrinimas />
 
       <FonoSpalva />
+      <AutoFocus />
+      <FocusButton />
+      <InputValue />
+      <ClearInput />
+      <SelectText />
+      <ColorBox />
+      <ClickCounter />
+      
+
+     
+
+
+     
+     
       
       
 
