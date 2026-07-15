@@ -23,6 +23,9 @@ import ClearInput from "./ClearInput";
 import SelectText from "./SelectText"
 import ColorBox from "./ColorBox";
 import ClickCounter from "./ClickCounter";
+import TextLength from "./TextLength";
+import DisableInput from "./DisableInput";
+import ShowHideDiv from "./ShowHideDiv";
 
 
 
@@ -83,6 +86,9 @@ function Main() {
       <SelectText />
       <ColorBox />
       <ClickCounter />
+      <TextLength />
+      <DisableInput />
+      <ShowHideDiv />
       
 
      
