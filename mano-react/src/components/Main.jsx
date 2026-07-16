@@ -26,6 +26,7 @@ import ClickCounter from "./ClickCounter";
 import TextLength from "./TextLength";
 import DisableInput from "./DisableInput";
 import ShowHideDiv from "./ShowHideDiv";
+import TypingSpeedTest from "./TypingSpeedTest"
 
 
 
@@ -89,6 +90,7 @@ function Main() {
       <TextLength />
       <DisableInput />
       <ShowHideDiv />
+      <TypingSpeedTest />
       
 
      
