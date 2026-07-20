@@ -27,6 +27,8 @@ import TextLength from "./TextLength";
 import DisableInput from "./DisableInput";
 import ShowHideDiv from "./ShowHideDiv";
 import TypingSpeedTest from "./TypingSpeedTest"
+import Profile from "./Profile";
+import FavoriteColor from "./FavoriteColor";
 
 
 
@@ -91,6 +93,11 @@ function Main() {
       <DisableInput />
       <ShowHideDiv />
       <TypingSpeedTest />
+      <Profile />
+
+      <FavoriteColor />
+      
+
       
 
      
