@@ -29,8 +29,14 @@ import ShowHideDiv from "./ShowHideDiv";
 import TypingSpeedTest from "./TypingSpeedTest"
 import Profile from "./Profile";
 import FavoriteColor from "./FavoriteColor";
-
-
+import LanguageSelector from "./LanguageSelector";
+import ThemeSwitcher from "./ThemeSwitcher";
+import LoginStatus from "./LoginStatus";
+import ProfileInfo from "./ProfileInfo";
+import MovieSelector from "./MovieSelector";
+import CitySelector from "./CitySelector";
+import { CourseContext } from "./CourseContext";
+import { useContext } from "react";
 
 
 
@@ -38,9 +44,18 @@ import FavoriteColor from "./FavoriteColor";
 
 
 function Main() {
+const { course, setCourse } = useContext(CourseContext);
+
   return (
-    <main>
-      <p>Čia yra puslapio turinys.</p>
+    <main
+    style={{
+        backgroundColor: "#a5d6a7",
+        padding: "20px",
+        marginBottom: "10px",
+        minHeight: "400px"
+    }}
+>
+      <p>Čia yra puslapio (MAIN) turinys.</p>
       
       <StudentCard
         name="Dovydas"
@@ -96,7 +111,30 @@ function Main() {
       <Profile />
 
       <FavoriteColor />
+      <LanguageSelector />
+      <ThemeSwitcher />
+      <LoginStatus />
+      <ProfileInfo />
+      <MovieSelector />
+      <CitySelector />
+
       
+      <h2>Kurso informacija</h2>
+
+      <p>Kursas: {course.title}</p>
+
+      <p>Dėstytojas: {course.teacher}</p>
+
+      <button
+    onClick={() =>
+        setCourse({
+            title: "JavaScript",
+            teacher: "Petras"
+        })
+    }
+>
+    Pakeisti kursą
+</button>
 
       
 
