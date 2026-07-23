@@ -10,11 +10,13 @@ import ProfileProvider from "./components/ProfileContext";
 import MovieProvider from "./components/MovieContext";
 import CityProvider from "./components/CityContext";
 import CourseProvider from "./components/CourseContext";
+import SavedThemeProvider from "./components/SavedThemeContext";
 
 
 function App() {
   return (
     <>
+<SavedThemeProvider>
 <CourseProvider>
    <CityProvider>
     <MovieProvider>
@@ -36,6 +38,7 @@ function App() {
    </MovieProvider>
   </CityProvider>
 </CourseProvider>
+</SavedThemeProvider>
     </>
   )
 }

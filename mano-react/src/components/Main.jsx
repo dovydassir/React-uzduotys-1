@@ -37,6 +37,7 @@ import MovieSelector from "./MovieSelector";
 import CitySelector from "./CitySelector";
 import { CourseContext } from "./CourseContext";
 import { useContext } from "react";
+import SavedThemeSwitcher from "./SavedThemeSwitcher";
 
 
 
@@ -135,6 +136,8 @@ const { course, setCourse } = useContext(CourseContext);
 >
     Pakeisti kursą
 </button>
+
+<SavedThemeSwitcher />
 
       
 
